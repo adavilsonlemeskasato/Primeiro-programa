@@ -43,5 +43,6 @@ public class Teclado {
     public static void TesteCommit (){
 
         System.out.println("Commit Feito!!!");
+        System.out.println("Não sei se foi Feito!!!");
     }
 }
