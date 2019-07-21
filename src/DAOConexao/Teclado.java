@@ -40,9 +40,5 @@ public class Teclado {
         LocalDate data = LocalDate.parse(dataAux, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         return data;
     }
-    public static void TesteCommit (){
-
-        System.out.println("Commit Feito!!!");
-        System.out.println("Não sei se foi Feito!!!");
-    }
+ 
 }
