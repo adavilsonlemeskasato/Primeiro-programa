@@ -19,12 +19,12 @@ public class Teclado {
         return scanner.nextInt();
 
     }
-     public static int lerLong(String rotulo) {
+
+    public static int lerLong(String rotulo) {
         System.out.println(rotulo);
         Scanner scanner = new Scanner(System.in);
         return (int) scanner.nextLong();
     }
-
 
     public static double LerDouble(String rotulo) {
         System.out.println(rotulo);
@@ -40,5 +40,8 @@ public class Teclado {
         LocalDate data = LocalDate.parse(dataAux, DateTimeFormatter.ofPattern("dd/MM/yyyy"));
         return data;
     }
+    public static void TesteCommit (){
 
+        System.out.println("Commit Feito!!!");
+    }
 }
